@@ -29,3 +29,4 @@ nats-store
 .tramp_history
 .DS_Store
 cov.out
+tasks/todo.md
