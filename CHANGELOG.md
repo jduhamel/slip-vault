@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [1.6.1] 2026-10-26
 ### Added
 - Initial `vault` package: `vault-connect` and the `vault-client` flavor with
   `:kv-get`, `:kv-get-field`, `:kv-put`, `:kv-patch`, `:kv-delete`,
@@ -17,3 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `:read` and `:write` return the lease and auth information with the data.
 - `docker-compose.yml` and `vault-up`, `vault-down`, `test-docker`, and
   `cover` make targets.
+
+## [1.1.1] 2026-09-28
+### Added
+- Initial release.
